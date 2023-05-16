@@ -1,0 +1,7 @@
+- 本质思考
+	- 固定预训练模型参数，引入少量额外参数，用于下游任务的迁移学习
+	- 例如 prex_tuning, p_tuning, lora 都是类似的
+- 参考苏剑林：https://kexue.fm/archives/8295
+	- 为什么有效
+	- lm+全连接为什么能解决下游任务
+	- 一点细节：https://github.com/THUDM/P-tuning/issues/5
